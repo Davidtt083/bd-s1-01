@@ -133,10 +133,10 @@ a {
 
 .contep {
   position: absolute;
-  width: 80%;
-  height: 70%;
+  width: 96%;
+  height: 42%;
   margin-top: -404px;
-  margin-left: 10%;
+  margin-left: 1%;
   display: flex;
 }
 
@@ -144,18 +144,18 @@ a {
   background-color: #000;
   color: #d18a29;
   border-radius: 10px;
-  width: 25%;
-  height: 40%;
+  width: 19%;
+  height: 23%;
   border: solid #fff 2px;
   margin-top: 18%;
   margin-left: 6.25%;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 14px;
   justify-content: center;
   text-align: center;
-  line-height: 163px;
+  /* line-height: 31px; */
   transition: all 1s;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
@@ -375,39 +375,36 @@ a {
 }
 
 .btn1 {
-  background-image: url("fbtn.jpg");
-  background-size: 214px 242px;
+  padding-top: 14px;
   transition: all 0.5s;
 }
 
 .btn1:hover {
   opacity: 0.5;
   color: #ffffff;
-  line-height: 314px;
+
 }
 
 .btn2 {
-  background-image: url("fbtn3.jpg");
-  background-size: 176px 220px;
+  padding-top: 6px;
   transition: all 0.5s;
 }
 
 .btn2:hover {
   opacity: 0.5;
   color: #ffffff;
-  line-height: 314px;
+
 }
 
 .btn3 {
-  background-image: url("fbtn2.jpg");
-  background-size: 209px 225px;
+
   transition: all 0.5s;
 }
 
 .btn3:hover {
   opacity: 0.5;
   color: #ffffff;
-  line-height: 314px;
+
 }
 
 .modOperativo:hover {
@@ -587,11 +584,10 @@ a {
   color: #ffffff;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 0;
-  padding-left: 16px;
-  padding-right: 16px;
-  transition: all 1s;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ajusta la altura como sea necesario */
   /*text-align: justify;*/
   line-height: 21px;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
@@ -640,7 +636,7 @@ a {
 }
 
 .titulo{
-  margin-top: -103px;
+
 }
 
 .titulo:hover{
